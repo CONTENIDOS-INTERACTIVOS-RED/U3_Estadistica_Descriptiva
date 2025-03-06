@@ -2,7 +2,9 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Unidad 3: Bioética y sostenibilidad en el desarrollo económico global, establece los principios esenciales para comprender cómo los valores éticos y bioéticos pueden orientar el desarrollo económico hacia la sostenibilidad. Esta unidad proporciona una perspectiva integral sobre la relación entre la economía, el medio ambiente y los derechos humanos, destacando la importancia de prácticas responsables en contextos globalizados. Este enfoque asegura que los estudiantes adquieran una comprensión sólida de los desafíos éticos actuales y las estrategias sostenibles, permitiéndoles aplicar estas herramientas de manera efectiva en su formación profesional y en la vida cotidiana.
+      p(data-aos="fade-up") La Unidad 3: Regresión y correlación introduce herramientas estadísticas esenciales para el análisis de datos y la toma de decisiones informadas. A través del estudio de la correlación, los estudiantes aprenderán a medir la relación entre variables y a interpretar la fuerza y dirección de su asociación. Posteriormente, mediante la regresión lineal simple, se explorará cómo modelar estas relaciones para hacer predicciones y analizar tendencias en diversos contextos empresariales.
+
+      p(data-aos="fade-up").mb-5 Además, esta unidad enfatiza la aplicación práctica de estas técnicas en la gestión organizacional, el análisis financiero y el marketing, permitiendo comprender cómo la estadística contribuye a la optimización de procesos y a la planificación estratégica. Al finalizar, los estudiantes estarán preparados para aplicar estos conceptos en la resolución de problemas reales, fortaleciendo sus habilidades analíticas y su capacidad de interpretar datos de manera efectiva.
 
       .row.justify-content-center
         .col-lg-12.mb-5
