@@ -127,7 +127,7 @@
     
     p.mb-4 El coeficiente de correlación de Pearson es una herramienta estadística fundamental para medir la relación entre dos variables cuantitativas.
 
-    .bg-full-width.bg-color-5.mb-lg-5
+    .bg-full-width.bg-color-5.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0
@@ -149,14 +149,14 @@
     
     p.mb-4 El coeficiente de determinación es una medida estadística clave para evaluar la relación entre dos variables y determinar cuánto de la variabilidad de una puede explicarse a través de la otra.
 
-    .bg-full-width.bg-color-5.mb-lg-5
+    .bg-full-width.bg-color-5.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0.order-1.order-lg-2
             h2.mb-4(data-aos="flip-up") Coeficiente de determinación
             p.mb-4(data-aos="fade-right") En el PDF <b>Coeficiente de determinación</b>, se explica su cálculo, interpretación y utilidad en la toma de decisiones. A través de ejemplos prácticos, se analiza cómo esta métrica complementa al coeficiente de correlación de Pearson y permite estimar la proporción de variabilidad explicada, facilitando un análisis más profundo de los datos y sus implicaciones en distintos contextos.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -241,7 +241,7 @@
           .div(titulo="Paso 3")
             p.mb-0 Sumar las diferencias al cuadrado (∑ d<sub>i</sub><sup>2</sup>) = 5.5 y aplicar la fórmula.
             p Asumiendo que el número total de empleados (muestra) n = 3:
-            figure
+            figure.mb-3
               img(src='@/assets/curso/tema1/15.svg', alt='', style="max-width: 217px;").mx-auto
             p Un ρ de –0.375 indica una correlación negativa baja entre el nivel educativo y la categoría salarial. Esto significa que, en este caso, un mayor nivel educativo, no está fuertemente asociado con un salario más alto.
 

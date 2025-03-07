@@ -22,14 +22,14 @@
     
     p.mb-4 La regresión lineal es una técnica estadística fundamental para analizar la relación entre dos variables y predecir valores con base en tendencias observadas.
 
-    .bg-full-width.bg-color-5.mb-lg-5
+    .bg-full-width.bg-color-5.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0
             h2.mb-4(data-aos="flip-up") Concepto de regresión lineal
             p.mb-4(data-aos="fade-right") En el PDF <b>Concepto de regresión lineal</b>, se explica cómo este modelo permite representar matemáticamente la asociación entre una variable independiente y una variable dependiente, facilitando la toma de decisiones en diversos contextos. A través de ejemplos prácticos, se analizará cómo interpretar la ecuación de la recta de regresión, estimar sus parámetros y evaluar la precisión del modelo en distintos escenarios.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -52,7 +52,7 @@
         p ¿Cómo funciona?
 
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -60,14 +60,14 @@
             .col-lg
               p.mb-0 Hay datos en un gráfico (por ejemplo, horas de estudio y calificaciones).
 
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema2/5.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Dibuje una línea recta que intenta representar la relación entre las variables.
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -76,7 +76,7 @@
               p.mb-0 Calcule los errores (las diferencias entre los valores reales y los valores que predice la línea).
 
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -84,7 +84,7 @@
             .col-lg
               p.mb-0 Eleve al cuadrado esos errores (para evitar que se cancelen si son positivos o negativos).
 
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -109,14 +109,14 @@
 
     p.mb-4 Veamos esto en acción con un ejemplo simplificado.
 
-    .bg-full-width.bg-color-5.mb-lg-5
+    .bg-full-width.bg-color-5.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0.order-1.order-lg-2
             h2.mb-4(data-aos="flip-up") Ejemplo
             p.mb-4(data-aos="fade-right") El método de mínimos cuadrados es una herramienta fundamental en el análisis estadístico para encontrar la línea de mejor ajuste en un conjunto de datos. En el PDF <b>Ejemplo</b>, se presenta un caso práctico en el que se calcula la ecuación de regresión a partir de datos sobre horas de estudio y calificaciones, utilizando fórmulas matemáticas para determinar la pendiente y la intersección. A través de este ejemplo, se ilustrará cómo interpretar los coeficientes de la ecuación y visualizar la relación entre las variables, facilitando la toma de decisiones basada en datos cuantificables.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
