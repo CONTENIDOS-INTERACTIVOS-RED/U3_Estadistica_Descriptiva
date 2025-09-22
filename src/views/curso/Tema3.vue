@@ -271,7 +271,7 @@
     .row.mb-5.justify-content-center
       .col-lg-6
         TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-          texto="Fundamentos de la innovación estratégica"
+          texto="Estadística Descriptiva Aplicada"
           tiempo
           :audio="require('../../assets/curso/podcast/podcast1.mp3')"
         )
